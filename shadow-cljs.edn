@@ -1,0 +1,17 @@
+{:source-paths ["src"]
+ :dependencies [[binaryage/devtools "1.0.0"]
+                [nrepl "0.7.0"]
+                [reagent "0.10.0"]
+                [re-graph "0.1.5-SNAPSHOT"]
+                [clj-commons/secretary "1.2.4"]
+                [re-frame "1.1.1"]]
+
+
+ :builds       {:app {:target     :browser
+                      :output-dir "public/js"
+                      :asset-path "/js"
+                      :modules    {:app {:entries [grant-tracker-ui.core]}}
+                      :devtools   {:after-load grant-tracker-ui.core/mount-root}}}
+
+ :dev-http     {3000 {:root    "public"
+                      :handler user/app}}}

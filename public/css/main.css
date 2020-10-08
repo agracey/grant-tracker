@@ -1,0 +1,74 @@
+.page-header {
+    height: 48px;
+    background-color: #667;
+}
+
+
+.logo {
+    height: 32px;
+    width: 18px;
+    margin-top: 8px;
+    border: 1px solid #000000;
+}
+
+.welcome {
+    margin: 8px;
+    line-height: 32px;
+    padding-right: 8px;
+}
+
+
+
+.page-menu {
+    height: calc(100vh - 48px);
+    background-color: #667;
+    width: 160px;
+    float: left;
+}
+.page-menu .expander {
+    display: none;
+}
+.page-menu.shrunk {
+    width: 32px;
+}
+.page-menu.shrunk ul {
+    display: none;
+}
+.page-menu.shrunk .expander {
+    display: block;
+}
+
+.page-menu > ul {
+    padding-top: 32px;
+    width: 100%;
+}
+
+li.menu-item {
+    padding-bottom: 8px;
+}
+
+.menu-item > .title {
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left: 16px;
+    width: 100%;
+}
+.menu-item > .title:hover{
+    padding-left: 20px;
+    color: #300;
+}
+
+li.sub-menu-item {
+    padding-bottom: 4px;
+}
+.sub-menu-item > .title {
+    padding-left: 32px;
+    width: 100%;
+}
+
+.sub-menu-item > .title:hover{
+    padding-left: 36px;
+    color: #300;
+}
+
+
