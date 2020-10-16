@@ -2,7 +2,8 @@
   "scripts":{
     "build": "npx shadow-cljs compile app",
     "serve":"npx shadow-cljs server",
-    "watch":"npx shadow-cljs watch app"
+    "watch":"npx shadow-cljs watch app",
+    "repl":"npx shadow-cljs cljs-repl app"
   },
   "devDependencies": {
     "shadow-cljs": "^2.10.14"

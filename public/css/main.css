@@ -1,6 +1,7 @@
 .page-header {
     height: 48px;
     background-color: #667;
+    border-bottom: #000000 solid 1px;
 }
 
 
@@ -17,6 +18,11 @@
     padding-right: 8px;
 }
 
+
+.content{
+    width: calc(100vw - 160px);
+    margin-left: 160px;
+}
 
 
 .page-menu {
@@ -45,6 +51,7 @@
 
 li.menu-item {
     padding-bottom: 8px;
+    border-bottom: #000000 solid 1px;
 }
 
 .menu-item > .title {
@@ -71,4 +78,29 @@ li.sub-menu-item {
     color: #300;
 }
 
+#timeline-pane {
+    padding: 40px;
+}
 
+.timeline-item {
+    height: 80px;
+}
+
+.timeline-line {
+    height: 1px;
+    width: 100%;
+    background: black;
+}
+
+.date-circle {
+    height: 40px;
+    margin-top: -20px;
+    width: 40px;
+    border: black solid 4px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.date-name {
+
+}
